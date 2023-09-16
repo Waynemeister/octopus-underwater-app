@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: octopus-underwater-app
-          image: <Your AWS ECR URL>/underwater-github:latest
+          image: 216505020589.dkr.ecr.us-east-1.amazonaws.com/wayne_s_buildpush_docker_ecr_assign/underwater-github:latest
           ports:
             - containerPort: 80
               protocol: TCP
